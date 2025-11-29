@@ -286,16 +286,15 @@ nav a:hover {
 
   /* Навигация */
   nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 0;
-    margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px 0;
+      margin-top: 10px;
   }
 
   nav ul li {
-    display: block;
-    margin: 8px 0;
+      margin: 8px 0;
   }
 
   /* Предложения */
@@ -315,7 +314,7 @@ nav a:hover {
   }
 
   /* игроки */
-  .players {
+/*  .players {
     flex-direction: column;
     align-items: center;
     gap: 40px;
@@ -326,7 +325,29 @@ nav a:hover {
     width: 70%;
     height: auto;
   }
+*/
 
+  .players {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin: 0 auto;
+  }
+
+  /* Контейнер, который у тебя называется .Players */
+  .Players {
+      margin-left: 0 !important;   /* убрать кривой отступ */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+  }
+
+  .players div img {
+      width: 70%;
+      height: auto;
+  }
   /* История клуба */
   .about-container-new {
     flex-direction: column;
